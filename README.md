@@ -37,8 +37,8 @@ driven off a live audio feed (e.g. a FOH/mixer tap or a microphone).
 
 1. **Clone this repo:**
    ```bash
-   git clone https://github.com/YOUR-USERNAME/voice-trigger-obs.git
-   cd voice-trigger-obs
+   git clone https://github.com/Ezranathaniel13/obs-voice-trigger.git
+   cd obs-voice-trigger
    ```
 
 2. **Install dependencies:**
