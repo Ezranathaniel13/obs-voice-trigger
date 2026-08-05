@@ -95,6 +95,45 @@ ipconfig
 
 Then visit `http://<that-ip>:8765` from the other device.
 
+## One-click launcher (optional)
+
+If you don't want to open a terminal every time, this repo includes a
+double-click launcher for each OS. They just run the same
+`python3 obs_voice_trigger_public.py` command for you.
+
+**macOS — `Launch Voice Trigger.command`**
+
+1. One-time setup, in Terminal:
+   ```bash
+   chmod +x "Launch Voice Trigger.command"
+   ```
+2. Double-click it in Finder from then on. First launch, macOS will likely
+   warn it's from an unidentified developer — right-click → **Open** → **Open**
+   once to approve it; after that, plain double-clicks work with no warning.
+3. Optional: drag it to your Dock for a permanent one-click icon, and/or
+   give it a custom icon via **Get Info** (select the file → Cmd+I → drag an
+   image onto the small icon in the top-left of that panel).
+
+**Windows — `Launch Voice Trigger.bat`**
+
+Just double-click it in File Explorer. If Windows SmartScreen warns about
+an unrecognized app, click **More info** → **Run anyway**.
+
+**Linux — `launch-voice-trigger.sh`**
+
+1. One-time setup, in a terminal:
+   ```bash
+   chmod +x launch-voice-trigger.sh
+   ```
+2. Depending on your file manager, you may be able to double-click it
+   directly, or you may need to right-click → **Run** or **Run in Terminal**
+   (this varies by desktop environment — GNOME, KDE, etc. handle executable
+   scripts differently).
+
+All three launchers open a small terminal/console window while the app runs
+(that's normal — it's what's actually running Python) and stop the app when
+you close that window.
+
 ## Tuning detection
 
 - **Cooldown (sec):** minimum time between repeat triggers of the same
