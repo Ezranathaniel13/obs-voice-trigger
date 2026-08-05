@@ -1,0 +1,16 @@
+# Local config — contains your OBS password, never commit this
+voice_trigger_config.json
+obs_voice_trigger_config.json
+
+# Vosk speech model — large, download separately (see README)
+vosk-model-small-en-us-0.15/
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# macOS
+.DS_Store
