@@ -27,6 +27,7 @@ driven off a live audio feed (e.g. a FOH/mixer tap or a microphone).
 
 ## Requirements
 
+- **Works on Windows, macOS, and Linux** — it's plain Python with no OS-specific code.
 - Python 3.9+
 - [OBS Studio](https://obsproject.com/) with obs-websocket enabled
   (built into OBS 28+: **Tools → obs-websocket Settings**)
@@ -86,6 +87,10 @@ ipconfig getifaddr en0
 
 # Linux
 hostname -I
+
+# Windows (PowerShell or Command Prompt)
+ipconfig
+# — look for "IPv4 Address" under your active network adapter
 ```
 
 Then visit `http://<that-ip>:8765` from the other device.
