@@ -3,9 +3,8 @@
 Switch OBS scenes automatically by voice — say a phrase, and the matching
 scene switches instantly. No hotkeys, no Stream Deck, no manual clicking.
 
-Runs as a small local web app (similar to Bitfocus Companion's browser-based
-admin panel) with a modern glass-style interface. Built for live production
-teams (churches, events, streamers) who want hands-free scene switching
+Runs as a small local web app with a modern glass-style interface. Built for live production
+teams (House Of Worship, events, streamers) who want hands-free scene switching
 driven off a live audio feed (e.g. a FOH/mixer tap or a microphone).
 
 ![Voice Trigger for OBS screenshot](screenshot.png)
