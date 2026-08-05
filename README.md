@@ -8,7 +8,7 @@ admin panel) with a modern glass-style interface. Built for live production
 teams (churches, events, streamers) who want hands-free scene switching
 driven off a live audio feed (e.g. a FOH/mixer tap or a microphone).
 
-![screenshot placeholder — add your own after first run]
+![Voice Trigger for OBS screenshot](screenshot.png)
 
 ## Features
 
